@@ -6,10 +6,21 @@
 
 * {
   font-family: "proxima-nova-soft", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+a{
+  color: rgb(255, 255, 255);
 }
 
 body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/*anuncio*/
+#alert{
+  top: 0;
+  margin-bottom: 0;
 }

@@ -14,8 +14,8 @@
     <title>Ariana</title>
   </head>
   <body>
-    <div id="anuncio" class="container-fluid">
-      <div class="row alert alert-dismissible label-danger text-center">
+    <div id="anuncio" class="">
+      <div id="alert" class="alert alert-dismissible label-danger text-center">
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
         <span>This week only, use code
           <strong>BONDBACK15</strong>
@@ -24,43 +24,49 @@
         </span>
       </div>
     </div>
-    <section class="container-fluid icon--hero-bg jumbotron">
-      <nav id="nav-opciones" class="row navbar navbar-fixed">
-        <div class="col-md-2">
-          <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-        </div>
-        <div class="col-md-7">
-          <ul class="nav-bar list list-inline">
-            <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#how-it-works">How It Works</a>
-                </li>
-            <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#our-promise">Our Promise</a>
-                </li>
-            <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#our-community">Our Community</a>
-                </li>
-            <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#cleaning-checklist">Cleaning Checklist</a>
-                </li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <div class="nav navbar-right text--right">
-            <a href="mailto:hello@thisisneat.com.au" class="navbar-contact link link--secondary">
-              <i class="icon icon--input-date "></i>
-              <span class="hidden-xs">hello@thisisneat.com.au</span>
-            </a>
+    <section class="icon--hero-bg">
+
+        <nav id="nav-opciones" class="navbar navbar-fixed navbar-brand hidden-xs">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-6 col-md-2">
+                <a href="index.html"><img src="assets/img/logo.png" alt="logo" width="90px"></a>
+              </div>
+              <div class="col-md-7">
+                <ul class="nav-bar list list-inline">
+                  <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#how-it-works">How It Works</a>
+                      </li>
+                  <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#our-promise">Our Promise</a>
+                      </li>
+                  <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#our-community">Our Community</a>
+                      </li>
+                  <li class="link link--secondary menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#cleaning-checklist">Cleaning Checklist</a>
+                      </li>
+                </ul>
+              </div>
+              <div class="col-xs-6 col-md-3 col-lg-3">
+                <div class="">
+                  <a href="mailto:hello@thisisneat.com.au" class="navbar-contact link link--secondary">
+                    <i class="icon icon--input-date "></i>
+                    <span class="hidden-xs">hello@thisisneat.com.au</span>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </nav>
-      <div id="portada" class="row">
-        <div class="container section">
-          <div class="row text-center align-items-center">
+        </nav>
+
+      <div id="portada" class="container">
+        <div class="row">
+          <div class="col-md-12 text-center align-items-center">
             <div class="intro intro--alt">
-              <img class="intro__logo visible-xs" src="assets/img/logo.png" alt="logo">
-              <h2 class="intro__heading h1 hidden-xs">You move out, <br class="visible-sm">we clean up.</h2>
-              <h4 class="intro__subheading">The simplest way to get your bond back.<em>Guaranteed</em>.</h4>
+              <img class="visible-xs" src="assets/img/logo.png" alt="logo">
+              <h2 class="h1 hidden-xs">You move out, <br class="visible-sm">we clean up.</h2>
+              <h4 class="">The simplest way to get your bond back.<em>Guaranteed</em>.</h4>
             </div>
           </div>
           <div id ="boton" class="row">
@@ -71,7 +77,7 @@
         </div>
       </div>
     </section>
-    <section id="works" class="container section">
+    <!-- <section id="works" class="container section">
       <div class="col-sm-12 col-lg-11 col-lg-push-1 section-works">
           <div class="row">
             <div class="col-sm-5 col-sm-push-7 col-md-4 col-md-push-8">
@@ -111,7 +117,7 @@
             </div>
           </div>
         </div>
-    </section>
+    </section> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
