@@ -10,25 +10,26 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/icons.data.svg.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Ariana</title>
   </head>
   <body>
-    <div id="anuncio" class="row">
-      <div class=" text-center">
-        <span class="col-md-12 label-danger">This week only, use code
+    <div id="anuncio" class="container-fluid">
+      <div class="row alert alert-dismissible label-danger text-center">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <span>This week only, use code
           <strong>BONDBACK15</strong>
           to get 15% off your end of lease cleaning. Expires
           <strong>21/05/2017</strong>.
         </span>
-        <a id="close" class="icon--xs icon--hello-close"></a>
       </div>
     </div>
-    <section class="row icon--hero-bg jumbotron">
-      <nav id="nav-opciones" class=" container navbar navbar-fixed">
+    <section class="container-fluid icon--hero-bg jumbotron">
+      <nav id="nav-opciones" class="row navbar navbar-fixed">
         <div class="">
-          <div class="row">
+          <div class="">
             <div class="col-md-2">
-              <a href="#"><img src="logo" alt="logo"></a>
+              <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
             </div>
             <div class="col-md-7">
               <ul class="nav-bar list list-inline">
@@ -49,7 +50,7 @@
             <div class="col-md-3">
               <div class="nav navbar-right text--right">
                 <a href="mailto:hello@thisisneat.com.au" class="navbar-contact link link--secondary">
-                  <i class="icon icon--sm">contacto</i>
+                  <i class="icon icon--input-date "></i>
                   <span class="hidden-xs">hello@thisisneat.com.au</span>
                 </a>
               </div>
@@ -61,7 +62,7 @@
         <div class="container">
           <div class="row text-center align-items-center">
             <div class="intro intro--alt">
-              <img class="intro__logo visible-xs" src="img/logo.png" alt="logo">
+              <img class="intro__logo visible-xs" src="assets/img/logo.png" alt="logo">
               <h2 class="intro__heading h1 hidden-xs">You move out,
                 <br class="visible-sm">we clean up.
               </h2>
@@ -120,8 +121,7 @@
         </div>
     </section>
 
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
-    <scrip src="js/bootstrap.min.js"></scrip>
-    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
